@@ -5,7 +5,7 @@ import 'package:mobile_demo_listview/domain/entities/favourite.dart';
 import '../domain/usecases/favourite_usescase.dart';
 
 class FavouriteItemCubit extends Cubit<List<Favourite>>{
-  FavouriteItemCubit({required this.usecase}) : super(List.empty());
+  FavouriteItemCubit({required this.usecase}) : super([Favourite(label: "dummy", id:0)]);
 
   final FavoriteItemUseCase usecase;
 
