@@ -1,7 +1,7 @@
 
 import 'package:mobile_demo_listview/domain/entities/favourite.dart';
 
-class FavoriteItemUseCases{
+class FavoriteItemUseCase{
   final List<Favourite> _favouriteItems = [];
 
   List<Favourite> get items => _favouriteItems;
