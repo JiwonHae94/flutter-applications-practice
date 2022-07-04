@@ -1,4 +1,4 @@
-import 'package:mobile_demo_listview/domain/entities/color.dart';
+import 'package:mobile_demo_listview/domain/entities/color_item.dart';
 
 class ColorItemState {
   ColorItemState({required this.items});
@@ -6,6 +6,6 @@ class ColorItemState {
   // create empty list as default list
   factory ColorItemState.createDefault() => ColorItemState(items: []);
 
-  late List<Color> items;
+  late List<ColorItem> items;
 
 }

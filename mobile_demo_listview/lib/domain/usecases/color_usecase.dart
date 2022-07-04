@@ -1,17 +1,20 @@
-import '../entities/color.dart';
+import '../entities/color_item.dart';
 
 class ColorUsecase{
-  final List<Color> _colors = [];
+  final List<ColorItem> _colors = [];
 
-  List<Color> get items => _colors;
+  List<ColorItem> get items => _colors;
 
-  void add(Color item){
+  void add(ColorItem item){
     _colors.add(item);
   }
 
-  void remove(Color item){
+  void remove(ColorItem item){
     _colors.remove(item);
   }
 
+  void generateDefault(){
+
+  }
 
 }
